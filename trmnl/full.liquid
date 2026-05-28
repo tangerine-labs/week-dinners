@@ -3,26 +3,26 @@
   <div class="grid grid--cols-5 portrait:grid--cols-1 gap stretch-y">
     {% for day in weekdays %}
     <div class="col gap--small bg--gray-75 rounded--base">
-      <span class="title title--small">{{ day.day }}</span>
+      <span class="title title--large lg:title--xlarge">{{ day.day }}</span>
 
-      <div class="item">
+      <div class="item mt--large">
         <div class="content">
-          <span class="label label--small label--underline">Snack</span>
-          <span class="description description--small" data-clamp="4">{{ day.snack }}</span>
+          <span class="label label--large label--underline">Snack</span>
+          <span class="description description--large lg:description--xlarge" data-clamp="4">{{ day.snack }}</span>
         </div>
       </div>
 
-      <div class="item">
+      <div class="item mt--large">
         <div class="content">
-          <span class="label label--small label--underline">Lunch</span>
-          <span class="description description--small" data-clamp="4">{{ day.lunch }}</span>
+          <span class="label label--large label--underline">Lunch</span>
+          <span class="description description--large lg:description--xlarge" data-clamp="4">{{ day.lunch }}</span>
         </div>
       </div>
 
-      <div class="item">
+      <div class="item mt--large">
         <div class="content">
-          <span class="label label--small label--underline">Dinner</span>
-          <span class="description description--small" data-clamp="4">{{ day.dinner }}</span>
+          <span class="label label--large label--underline">Dinner</span>
+          <span class="description description--large lg:description--xlarge" data-clamp="4">{{ day.dinner }}</span>
         </div>
       </div>
     </div>
