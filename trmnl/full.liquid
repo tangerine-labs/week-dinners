@@ -1,28 +1,28 @@
 <div class="layout layout--col gap">
-  <span class="title title--large lg:title--xlarge">Weekly Schedule</span>
+  <div class="title title--large lg:title--xlarge">Weekly Schedule</div>
   <div class="grid grid--cols-5 portrait:grid--cols-1 gap stretch-y">
     {% for day in weekdays %}
     <div class="col gap--small bg--gray-75 rounded--base">
-      <span class="title title--large lg:title--xlarge">{{ day.day }}</span>
+      <div class="title title--large lg:title--xlarge">{{ day.day }}</div>
 
       <div class="item mt--large">
         <div class="content">
-          <span class="label label--large label--underline">Snack</span>
-          <span class="description description--large lg:description--xlarge" data-clamp="4">{{ day.snack }}</span>
+          <div class="label label--large label--underline"><img src="/lucide-icons/apple.svg" class="icon"/> Snack</div>
+          <div class="description description--large lg:description--xlarge" data-clamp="4">{{ day.snack }}</div>
         </div>
       </div>
 
       <div class="item mt--large">
         <div class="content">
-          <span class="label label--large label--underline">Lunch</span>
-          <span class="description description--large lg:description--xlarge" data-clamp="4">{{ day.lunch }}</span>
+          <div class="label label--large label--underline"><img src="/lucide-icons/sandwich.svg" class="icon"/> Lunch</div>
+          <div class="description description--large lg:description--xlarge" data-clamp="4">{{ day.lunch }}</div>
         </div>
       </div>
 
       <div class="item mt--large">
         <div class="content">
-          <span class="label label--large label--underline">Dinner</span>
-          <span class="description description--large lg:description--xlarge" data-clamp="4">{{ day.dinner }}</span>
+          <div class="label label--large label--underline"><img src="/lucide-icons/utensils.svg" class="icon"/> Dinner</div>
+          <div class="description description--large lg:description--xlarge" data-clamp="4">{{ day.dinner }}</div>
         </div>
       </div>
     </div>
@@ -30,6 +30,5 @@
   </div>
 </div>
 <div class="title_bar">
-  <img class="image" src="https://trmnl.com/images/plugins/trmnl--render.svg" />
   <span class="title">Week Dinners</span>
 </div>
