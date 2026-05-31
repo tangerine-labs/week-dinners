@@ -1,27 +1,27 @@
 <div class="layout layout--col gap">
-  <div class="title title--large lg:title--xlarge">Weekly Schedule</div>
-  <div class="grid grid--cols-5 portrait:grid--cols-1 gap stretch-y">
+  <div class="title title--large lg:title--xlarge mb--large">Weekly Schedule</div>
+  <div class="grid grid--cols-5 portrait:grid--cols-1 gap stretch-y mt--large">
     {% for day in weekdays %}
     <div class="col gap--small bg--gray-75 rounded--base">
       <div class="title title--large lg:title--xlarge">{{ day.day }}</div>
 
       <div class="item mt--large">
         <div class="content">
-          <div class="label label--large label--underline"><img src="/lucide-icons/apple.svg" class="icon"/> Snack</div>
+          <div class="label label--large label--underline"><img src="https://bebop-minsann.github.io/week-dinners/lucide-icons/apple.svg" class="icon"/> Snack</div>
           <div class="description description--large lg:description--xlarge" data-clamp="4">{{ day.snack }}</div>
         </div>
       </div>
 
       <div class="item mt--large">
         <div class="content">
-          <div class="label label--large label--underline"><img src="/lucide-icons/sandwich.svg" class="icon"/> Lunch</div>
+          <div class="label label--large label--underline"><img src="https://bebop-minsann.github.io/week-dinners/lucide-icons/sandwich.svg" class="icon"/> Lunch</div>
           <div class="description description--large lg:description--xlarge" data-clamp="4">{{ day.lunch }}</div>
         </div>
       </div>
 
       <div class="item mt--large">
         <div class="content">
-          <div class="label label--large label--underline"><img src="/lucide-icons/utensils.svg" class="icon"/> Dinner</div>
+          <div class="label label--large label--underline"><img src="https://bebop-minsann.github.io/week-dinners/lucide-icons/utensils.svg" class="icon"/> Dinner</div>
           <div class="description description--large lg:description--xlarge" data-clamp="4">{{ day.dinner }}</div>
         </div>
       </div>
