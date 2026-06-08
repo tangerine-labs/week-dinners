@@ -2,33 +2,33 @@
     "weekdays": [
         {
             "day": "Monday",
-            "snack": "Round hardbread and strawberry",
-            "lunch": "Sandwich with cucumber and tomato",
-            "dinner": "Home-made pizza"
+            "snack": "Peanut butter hardbread, fruit",
+            "lunch": "Avocado sandwich with tomato and cucumber",
+            "dinner": "Italian"
         },
         {
             "day": "Tuesday",
-            "snack": "Rice cake, grapes",
-            "lunch": "Butter sandwich with ham and cucumber",
-            "dinner": "Home-made burgers"
+            "snack": "Hardbread with butter, fruit",
+            "lunch": "Egg and cheese sandwich",
+            "dinner": "Pita or tortillas"
         },
         {
             "day": "Wednesday",
             "snack": "Muesli bar, fruit",
             "lunch": "Wrap + meat, tomato",
-            "dinner": "Surprise"
+            "dinner": "Curry or Thai or Indian"
         },
         {
             "day": "Thursday",
             "snack": "Pancake or waffle, fruit",
             "lunch": "Dumplings and sauce, yoghurt pot with fruit",
-            "dinner": "Spinach pasta"
+            "dinner": "Asian"
         },
         {
             "day": "Friday",
             "snack": "Smoothie",
             "lunch": "Chili bagel with cream cheese",
-            "dinner": "Surprise"
+            "dinner": "Fish & chips or pizza or burger"
         }
     ]
 }
